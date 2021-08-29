@@ -1,0 +1,11 @@
+Model Information:
+* title:	FOX RIGGED
+* source:	https://sketchfab.com/3d-models/fox-rigged-ee7d17f164724896b4f2c417a5153163
+* author:	Federico.Villani (https://sketchfab.com/Federico.Villani)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "FOX RIGGED" (https://sketchfab.com/3d-models/fox-rigged-ee7d17f164724896b4f2c417a5153163) by Federico.Villani (https://sketchfab.com/Federico.Villani) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

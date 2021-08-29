@@ -1,0 +1,11 @@
+Model Information:
+* title:	Cheetah running
+* source:	https://sketchfab.com/3d-models/cheetah-running-29d7a722b46742f0b804ed884c903822
+* author:	AVINAS (https://sketchfab.com/AVINAS)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Cheetah running" (https://sketchfab.com/3d-models/cheetah-running-29d7a722b46742f0b804ed884c903822) by AVINAS (https://sketchfab.com/AVINAS) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
