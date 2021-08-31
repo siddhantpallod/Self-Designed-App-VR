@@ -51,12 +51,10 @@
         const { selectedCard } = this.data;
         
         const entity = document.querySelector('#entity')
-        entity.setAttribute('gltf-model', {
-          src: `./assets/3dmodels/${selectedCard}/scene.gltf`
-        })
-        entity.setAttribute('position', {x:0,  y:3,  z:-3})
+        entity.setAttribute('gltf-model', `./assets/3dmodels/${selectedCard}/scene.gltf`)
+        entity.setAttribute('position', {x:0,  y:0,  z:-3})
         entity.setAttribute('visible', true)
-        
+        entity.setAttribute('animation-mixer', {})
       },
 
       createCards: function() {
@@ -71,7 +69,37 @@
             id: 'cheetah',
             title: 'Chettah',
             url: './assets/images/chettah.png'
-          }
+          }, 
+          {
+            id: 'elephant',
+            title: 'Elephant',
+            url: './assets/images/elephant.png'
+          }, 
+          {
+            id: 'fox',
+            title: 'Fox',
+            url: './assets/images/fox.png'
+          }, 
+          {
+            id: 'giraffe',
+            title: 'Giraffe',
+            url: './assets/images/giraffe.png'
+          }, 
+          {
+            id: 'hippos',
+            title: 'Hippo',
+            url: './assets/images/hippos.png'
+          }, 
+          {
+            id: 'panda',
+            title: 'Panda',
+            url: './assets/images/panda.png'
+          }, 
+          {
+            id: 'rhino',
+            title: 'Rhino',
+            url: './assets/images/rhino.png'
+          }, 
         ];
   
 

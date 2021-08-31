@@ -19,7 +19,8 @@ AFRAME.registerComponent('cursor-listener', {
 
                 const placesId = [
                     'tiger',
-                    'cheetah'
+                    'cheetah',
+                    'rhino', 'panda', 'giraffe', 'hippos', 'fox', 'elephant'
                 ]
 
                 if(placesId.includes(id)){
@@ -45,7 +46,7 @@ AFRAME.registerComponent('cursor-listener', {
       },
       handlePlacesListState: function() {
         const id = this.el.getAttribute("id");
-        const placesId = ['tiger', 'cheetah'];
+        const placesId = ['tiger', 'cheetah', 'rhino', 'panda', 'giraffe', 'hippos', 'fox', 'elephant'];
         if (placesId.includes(id)) {
           const placeContainer = document.querySelector("#places-container");
           placeContainer.setAttribute("cursor-listener", {

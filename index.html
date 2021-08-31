@@ -5,9 +5,16 @@
     <title>Virtual Tour</title>
     <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
     <script src="https://unpkg.com/aframe-event-set-component@4.2.1/dist/aframe-event-set-component.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/donmccurdy/aframe-extras@v6.1.1/dist/aframe-extras.min.js" ></script>
 
     <script src="./Animals.js" ></script>
     <script src="./ClickEvents.js" ></script>
+
+    <script>
+      function goBack(){
+        window.history.back()
+      }
+    </script>
     
   </head>
   <body>
@@ -24,10 +31,12 @@
         cursor-listener
       ></a-entity>
 
-      <a-entity id = 'entity' visible="false" ></a-entity>
+      <a-entity id = 'entity' visible="false"  ></a-entity>
+
+      <button onclick="goBack()">BACK</button>
 
       <!-- CAMERA -->
-      <a-camera id="camera" wasd-controls="enabled:false;">
+      <a-camera id="camera" wasd-controls="enabled:true;">
         <!-- App Title -->
         <a-entity
           id="app-title"
